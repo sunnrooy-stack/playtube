@@ -15,7 +15,7 @@ const app = express()
 app.use(cookieParser())
 app.use(express.json())
 app.use(cors({
-   origin:"http://localhost:5173",
+   origin:"https://playtube-c8zb.onrender.com",
    credentials:true
 }))
 
