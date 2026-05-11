@@ -6,7 +6,7 @@ const server = http.createServer(app)
 
 const io = new Server(server,{
     cors:{
-        origin:"https://playtube-c8zb.onrender.com",
+        origin:"https://playtubes-1f3z.onrender.com",
         methods:["GET" , "POST" , "PUT" , "DELETE"]
     }
 })
