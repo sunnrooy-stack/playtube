@@ -62,7 +62,7 @@ function YoutubeSignin() {
                         <FaArrowLeft size={20} />
                     </button>
                     <img src={youtubeLogo} alt="YouTube" className="w-8 h-8 mr-2" />
-                    <span className="text-white text-2xl font-medium">PlayTube</span>
+                    <span className="text-white text-2xl font-medium">ZynTube</span>
                 </div>
 
                 {/* Step 1: Email */}
@@ -70,7 +70,7 @@ function YoutubeSignin() {
                     <>
                         <h1 className="text-3xl font-normal text-white mb-2">Sign in</h1>
                         <p className="text-gray-400 text-sm mb-6">
-                            with your Account to continue to PlayTube.
+                            with your Account to continue to ZynTube.
                         </p>
 
                         <input

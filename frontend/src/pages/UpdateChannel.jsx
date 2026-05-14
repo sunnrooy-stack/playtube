@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
-import logo from "../assets/youtube.png"; // PlayTube logo
+import logo from "../assets/youtube.png"; // ZynTube logo
 import {  useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { showCustomAlert } from "../component/CustomAlert";

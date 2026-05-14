@@ -283,7 +283,7 @@ function Home() {
             <div className="flex items-center gap-[5px]">
               <img src={logo} alt="Logo" className="w-[30px]" />
               <span className="text-white font-bold text-xl tracking-tight font-roboto">
-                PlayTube
+                ZynTube
               </span>
             </div>
           </div>

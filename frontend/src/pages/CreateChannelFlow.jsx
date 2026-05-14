@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
-import logo from "../assets/youtube.png"; // PlayTube logo
+import logo from "../assets/youtube.png"; // ZynTube logo
 import {  useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { showCustomAlert } from "../component/CustomAlert";
@@ -59,8 +59,8 @@ const CreateChannelFlow = () => {
       {/* HEADER */}
       <header className="flex justify-between items-center px-6 py-3 border-b border-gray-800">
         <div className="flex items-center gap-2">
-          <img src={logo} alt="PlayTube" className="w-8 h-8" />
-          <span className="text-xl font-bold">PlayTube</span>
+          <img src={logo} alt="ZynTube" className="w-8 h-8" />
+          <span className="text-xl font-bold">ZynTube</span>
         </div>
         <div className="flex items-center gap-3">
           {!userData?.photoUrl ?

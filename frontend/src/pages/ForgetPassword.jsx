@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ClipLoader } from 'react-spinners'
-import logo from "../assets/youtube.png" // <-- your PlayTube/YouTube logo
+import logo from "../assets/youtube.png" // <-- your ZynTube/YouTube logo
 import axios from 'axios'
 import { serverUrl } from '../App'
 import { showCustomAlert } from '../component/CustomAlert'
@@ -79,8 +79,8 @@ function ForgetPassword() {
             
             {/* HEADER */}
             <header className="flex items-center gap-2 p-4 border-b border-gray-700">
-                <img src={logo} alt="PlayTube" className="w-8 h-8" />
-                <span className="text-xl font-bold">PlayTube</span>
+                <img src={logo} alt="ZynTube" className="w-8 h-8" />
+                <span className="text-xl font-bold">ZynTube</span>
             </header>
 
             {/* CONTENT AREA */}
